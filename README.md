@@ -5,6 +5,14 @@ System Design
 
 * Sketch Out HLD
 
+* Back of the enveloper calculation
+ * 1 Billion per month = 400 per second
+ * 1 Billion per day = 10000 per second
+ * 2.5 million seconds per month
+ * 1 request per second = 2.5 million requests per month
+ * 40 requests per second = 100 million requests per month
+ * 400 requests per second = 1 billion requests per month
+
 * Discuss individual components and how they interact in detail
   * Reverse Proxy (Eg. Varnish)
   	* Centralized internal services
